@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "example" {
   name     = var.name
   location = var.location
   tags = {
-  Owner = Vishal
-  Application_name = terraform }
+  owner = Vishal
+  application_name = terraform }
 }
 
