@@ -9,4 +9,10 @@ resource "azurerm_resource_group" "example" {
 
 }
 
+tags = {
+
+applicationname = terraform
+owner = vish
+}
+
 
