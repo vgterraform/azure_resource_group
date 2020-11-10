@@ -6,13 +6,11 @@ provider "azurerm" {
 resource "azurerm_resource_group" "example" {
   name     = var.name
   location = var.location
-
-}
-
-tags = {
+  tags = {
 
 applicationname = terraform
 owner = vish
 }
 
+}
 
