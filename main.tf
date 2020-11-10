@@ -8,8 +8,8 @@ resource "azurerm_resource_group" "example" {
   location = var.location
   tags = {
 
-applicationname = terraform
-owner = vish
+applicationname = "terraform"
+owner = "vish"
 }
 
 }
